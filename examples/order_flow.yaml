@@ -1,0 +1,17 @@
+id: order_flow_demo
+title: 下单流程测试
+meta:
+  browser: chromium
+steps:
+  - id: goto_home
+    action: goto
+    args:
+      url: https://playwright.dev/
+  - id: click_docs
+    action: click
+    args:
+      selector: "text=Docs"
+  - id: screenshot1
+    action: screenshot
+    args:
+      path: artifacts/order_flow_demo/home.png

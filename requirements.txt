@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+playwright
+pydantic
+PyYAML
+gitpython
+jinja2
+httpx
+langchain==1.0.0
+openai
+python-multipart
